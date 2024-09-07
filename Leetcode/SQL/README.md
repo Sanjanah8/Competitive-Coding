@@ -16,126 +16,85 @@
 8. Customer Who Visited but Did Not Make Any Transactions  Easy
 
 9. Rising Temperature  
-   Solution: Easy
 
 10. Average Time of Process per Machine  
-    Solution: Easy
-
+   
 11. Employee Bonus  
-    Solution: Easy
-
-12. Students and Examinations  
-    Solution: Easy
+    
+12. Students and Examinations 
 
 13. Managers with at Least 5 Direct Reports  
-    Solution: Medium
 
 14. Confirmation Rate  
-    Solution: Medium
 
 15. Basic Aggregate Functions - Not Boring Movies  
-    Solution: Easy
 
 16. Average Selling Price  
-    Solution: Easy
 
 17. Project Employees I  
-    Solution: Easy
 
 18. Percentage of Users Attended a Contest  
-    Solution: Easy
 
 19. Queries Quality and Percentage  
-    Solution: Easy
 
 20. Monthly Transactions I  
-    Solution: Medium
 
 21. Immediate Food Delivery II  
-    Solution: Medium
 
 22. Game Play Analysis IV  
-    Solution: Medium
 
 23. Sorting and Grouping - Number of Unique Subjects Taught by Each Teacher  
-    Solution: Easy
 
 24. User Activity for the Past 30 Days I  
-    Solution: Easy
 
 25. Product Sales Analysis III  
-    Solution: Medium
 
-26. Classes More Than 5 Students  
-    Solution: Easy
+26. Classes More Than 5 Students
 
-27. Find Followers Count  
-    Solution: Easy
+28. Find Followers Count  
 
-28. Biggest Single Number  
-    Solution: Easy
+29. Biggest Single Number  
 
-29. Customers Who Bought All Products  
-    Solution: Medium
+30. Customers Who Bought All Products  
 
-30. Advanced Select and Joins - The Number of Employees Which Report to Each Employee  
-    Solution: Easy
+31. Advanced Select and Joins - The Number of Employees Which Report to Each Employee  
 
-31. Primary Department for Each Employee  
-    Solution: Easy
+32. Primary Department for Each Employee  
 
-32. Triangle Judgement  
-    Solution: Easy
+33. Triangle Judgement  
 
-33. Consecutive Numbers  
-    Solution: Medium
+34. Consecutive Numbers  
 
-34. Product Price at a Given Date  
-    Solution: Medium
+35. Product Price at a Given Date  
 
-35. Last Person to Fit in the Bus  
-    Solution: Medium
+36. Last Person to Fit in the Bus  
 
-36. Count Salary Categories  
-    Solution: Medium
+37. Count Salary Categories  
 
-37. Subqueries - Employees Whose Manager Left the Company  
-    Solution: Easy
+38. Subqueries - Employees Whose Manager Left the Company  
 
-38. Exchange Seats  
-    Solution: Medium
+39. Exchange Seats  
 
-39. Movie Rating  
-    Solution: Medium
+40. Movie Rating  
 
-40. Restaurant Growth  
-    Solution: Medium
+41. Restaurant Growth  
 
-41. Friend Requests II: Who Has the Most Friends  
-    Solution: Medium
+42. Friend Requests II: Who Has the Most Friends  
 
-42. Investments in 2016  
-    Solution: Medium
+43. Investments in 2016  
 
-43. Department Top Three Salaries  
-    Solution: Hard
+44. Department Top Three Salaries
+    
+46. Advanced String Functions / Regex / Clause - Fix Names in a Table  
 
-44. Advanced String Functions / Regex / Clause - Fix Names in a Table  
-    Solution: Easy
+47. Patients With a Condition  
 
-45. Patients With a Condition  
-    Solution: Easy
+48. Delete Duplicate Emails  
+    
+49. Second Highest Salary  
 
-46. Delete Duplicate Emails  
-    Solution: Easy
+50. Group Sold Products By The Date
+   
+52. List the Products Ordered in a Period  
 
-47. Second Highest Salary  
-    Solution: Medium
-
-48. Group Sold Products By The Date  
-
-
-49. List the Products Ordered in a Period  
-  
-
-50. Find Users With Valid E-Mails  
+53. Find Users With Valid E-Mails  
