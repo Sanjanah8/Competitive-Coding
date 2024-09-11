@@ -37,7 +37,7 @@ class Solution {
         long[] arr1 = {4, 3, 2, 6};
         long[] arr2 = {4, 2, 7, 6, 9};
         
-        System.out.println(sol.minCost(arr1));  // Output: 29
-        System.out.println(sol.minCost(arr2));  // Output: 62
+        System.out.println(sol.minCost(arr1));  
+        System.out.println(sol.minCost(arr2));  
     }
 }
