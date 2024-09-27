@@ -4,7 +4,7 @@
 int main()
 {
 char ch;
-scanf("%c",ch);
+scanf("%c",&ch);
 if(ch=='N')
 {
     printf("North");
