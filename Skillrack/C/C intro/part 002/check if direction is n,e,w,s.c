@@ -5,20 +5,25 @@ int main()
 {
 char ch;
 scanf("%c",ch);
-if(ch=='N'){
+if(ch=='N')
+{
     printf("North");
 }
-else if(ch=='E'){
-    printf("East");}
-else if(ch=='W'){
-    printf("West");
+else if(ch=='E')
+{
+    printf("East");
 }
 else if(ch=='S')
 {
     printf("South");
 }
-else{
+else if(ch=='W')
+{
+    printf("West");
+}
+else
+{
     printf("Invalid");
 }
-}return 0;
+return 0;
 }
