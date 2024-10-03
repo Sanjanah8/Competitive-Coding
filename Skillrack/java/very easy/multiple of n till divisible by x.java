@@ -5,7 +5,7 @@ public class Hello {
 	Scanner sc=new Scanner(System.in);
 	int n=sc.nextInt();
 	int x=sc.nextInt();
-	int multipe=n;
+	int multiple=n;
 	boolean run=true;
 	while(run){
 	    System.out.print(multiple+" ");
@@ -14,6 +14,5 @@ public class Hello {
 	    }
 	    multiple+=n;
 	}
-
 	}
 }
