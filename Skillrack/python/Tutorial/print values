@@ -1,0 +1,2 @@
+values=list(input().split())
+print(values[1])
