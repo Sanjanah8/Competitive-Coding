@@ -1,3 +1,3 @@
-list=["Chennai","Delhi","Mumbai"]
+cities=["Chennai","Delhi","Mumbai"]
 for city in cities:
   print(city)
