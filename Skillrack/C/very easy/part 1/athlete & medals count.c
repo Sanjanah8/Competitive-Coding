@@ -11,5 +11,5 @@ int i=0;
 while(name[i]!='\r'&&name[i]!='\n'&&name[i]!='\0'){
     i++;
 }name[i]='\0';
-printf("%s won %d medals",name,medals);
+printf("%s won %d medals",name,medal);
 }
