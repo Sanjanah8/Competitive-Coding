@@ -5,7 +5,7 @@ int main()
 {
 int r,c,row,col;
 scanf("%d %d",&r,&c);
-int mat[row][col];
+int mat[r][c];
 for(row=0;row<r;row++){
     for(col=0;col<c;col++)
 {
@@ -15,6 +15,5 @@ for(col=0;col<c;col++){
     for(row=0;row<r;row++){
         printf("%d ",mat[row][col]);
 }printf("\n");
-}
 }return 0;
 }
