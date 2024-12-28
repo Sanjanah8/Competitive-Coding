@@ -9,6 +9,6 @@ int ctr=n;
 while(ctr>=n){
     if(ctr%x==0){
         printf("%d ",ctr);
-    }ctr==;
+    }ctr--;
 }
 }
