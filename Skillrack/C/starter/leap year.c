@@ -16,6 +16,8 @@ if(isleapyear(y)){
         y+=13;
     }else if(y%2==0){
         y+=14;
-    }printf("Not a leap year");
+    }if(isleapyear(y)){
+        printf("Leap year");
+        }else{printf("Not a leap year");
 }return 0;
 }
