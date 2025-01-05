@@ -1,8 +1,8 @@
-s=input()
-result=""
-i=0
-while i<len(s):
-    num=int(s[i])
-    result+=s[i+1]*num
-    i+=2
-print(result)
+s=input().strip()
+b=""
+for i in s:
+    if i.isdigit():
+        b="".join([b,i])
+    else:
+        print(int(b)*i,end="")
+        b=""
