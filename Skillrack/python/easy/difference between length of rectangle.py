@@ -1,0 +1,9 @@
+spent1,spent2=map(float,input().split())
+w1,w2=map(float,input().split())
+cost=5
+area1=spent1/cost
+area2=spent2/cost
+l1=area1/w1
+l2=area2/w2
+diff=abs(l1-l2)
+print(f"{diff:.2f}")
