@@ -16,7 +16,7 @@ def findcommonsubmatrix():
     for submatrix in submatricesm1:
         if submatrix in submatricesm2:
             for row in submatrix:
-                print(row) //*use *row
+                print(*row) 
             return
     print(-1)
 findcommonsubmatrix()
