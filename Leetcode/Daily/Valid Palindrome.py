@@ -1,3 +1,9 @@
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s=s.lower()
+        a=''.join(c for c in s if c.isalnum())
+        return a == a[::-1]
+        
 #A man, a plan, a canal: Panama
 s=input().lower().strip()
 print(s)
