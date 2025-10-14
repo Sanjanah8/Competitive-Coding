@@ -1,13 +1,14 @@
 #A man, a plan, a canal: Panama
-s=input("Enter a string: ").lower().strip()
+s=input().lower().strip()
 print(s)
 for i in s:
     if not i.isalpha():
         s=s.replace(i, "")
         print(s)
         if s==s[::-1]:
-            print("The string is a palindrome")
-            break
+            return True
+        else:
+            return False
 
 # Enter a string: A man, a plan, a canal: Panama
           
