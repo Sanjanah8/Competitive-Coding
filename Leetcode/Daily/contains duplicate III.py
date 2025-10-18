@@ -1,3 +1,4 @@
+#My first solution but its wrong (use a data structure)
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], indexDiff: int, valueDiff: int) -> bool:
         if len(nums)==len(set(nums)):
