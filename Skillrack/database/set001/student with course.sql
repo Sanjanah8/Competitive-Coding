@@ -5,7 +5,7 @@ SELECT
     c.name
 FROM 
     student s 
-JOIN 
+LEFT JOIN 
     course c ON s.courseid = c.id
 WHERE 
     s.age < 18
