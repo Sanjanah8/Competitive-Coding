@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+struct Rectangle 
+{ 
+    int length; 
+    int breadth; 
+    
+    int getPerimeter() 
+    { 
+        return 2 * (length + breadth);
+    }
+}; 
+
+int main() {
+    Rectangle rect;
+    // These lines work now because of 'public:'
+    if (!(cin >> rect.length >> rect.breadth)) return 0;
+    
+    cout << rect.getPerimeter(); 
+    return 0;
+}
