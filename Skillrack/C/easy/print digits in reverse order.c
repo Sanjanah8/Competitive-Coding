@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 int main() {
-    int n, d;
-    if (scanf("%d %d", &n, &d) == 2) {
-        while (n > 0) {
-            printf("%d ", n);
-            n -= d;
-            if (d > 1) d--;
+    int n;
+    if(scanf("%d", &n) == 1) {
+        if(n == 0) putchar('0'); //or printf instead of putchar
+        while(n > 0) {
+            printf("%d", n % 10);
+            n /= 10;
         }
     }
     return 0;
