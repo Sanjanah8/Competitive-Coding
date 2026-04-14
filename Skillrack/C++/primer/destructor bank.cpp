@@ -8,10 +8,10 @@ class Bank {
         Bank(int openH, int closeH) {
             open = openH;
             close = closeH;
-            cout << "Bank opened at " << open << endl;
+            cout << "Bank opens at " << open <<"am"<<endl;
         }
         ~Bank() {
-            cout << "Bank closed at " << close << endl;
+            cout << "Bank closes at " << close <<"pm"<< endl;
         }
 };
 
