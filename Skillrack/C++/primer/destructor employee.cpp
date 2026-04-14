@@ -10,7 +10,7 @@ class Employee {
             exit = ex;
         }
         ~Employee() {
-            cout << exit - entry;
+            cout << (exit - entry) * 60 << " minutes";
         }
 };
 
