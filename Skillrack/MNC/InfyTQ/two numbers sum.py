@@ -1,0 +1,5 @@
+l = input().split(',')
+i5, i8 = l.index('5'), l.index('8')
+num1 = sum(int(x) for x in l[:i5] + l[i8+1:])
+num2 = int("".join(l[i5:i8+1]))
+print(num1 + num2)
