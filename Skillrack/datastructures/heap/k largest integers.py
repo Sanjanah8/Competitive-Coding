@@ -1,6 +1,6 @@
 import sys
 import heapq
-
+ad
 data = sys.stdin.read().split()
 if not data:
     exit()
