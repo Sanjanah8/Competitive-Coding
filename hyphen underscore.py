@@ -3,8 +3,8 @@ s = input().strip()
 hyphens = s.count('-')
 underscores = s.count('_')
 
-if hyphens >= 2 and underscores >= 1:
-    ans = (hyphens * (hyphens - 1) // 2) * underscores
-    print(ans)
-else:
-    print(0)
+left_hyphens = hyphens // 2
+right_hyphens = hyphens - left_hyphens
+
+ans = left_hyphens * underscores * right_hyphens
+print(ans)
