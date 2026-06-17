@@ -1,10 +1,8 @@
-s = input().strip()
-f = []
-
+s=input().strip()
+r=[]
 for char in s:
-    if char == 'i':
-        f.reverse()
+    if char=='i':
+        r.reverse()
     else:
-        f.append(char)
-
-print("".join(f))
+        r.append(char)
+print("".join(r))
