@@ -4,7 +4,7 @@ class Solution {
         return arr.at(i);
     }
 };
-//other 
+//best
 class Solution {
   public:
     int findElementAtIndex(int i, vector<int> &arr) {
