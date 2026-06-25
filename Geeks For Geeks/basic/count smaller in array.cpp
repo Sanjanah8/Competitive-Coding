@@ -10,3 +10,14 @@ class Solution {
         return count;
     }
 };
+
+//other
+class Solution {
+  public:
+    int countOfElements(int x, vector<int> &arr) {
+        // count_if returns the number of elements that satisfy the condition
+        return count_if(arr.begin(), arr.end(), [x](int num) {
+            return num <= x;
+        });
+    }
+};
