@@ -21,3 +21,23 @@ public:
         return sum*num;
     }
 };
+//other
+class Solution {
+    public long sumAndMultiply(int n) {
+        long result=0;
+        int s=1;
+        int rem;
+        long sum=0;
+        while(n>0){
+            rem=n%10;
+            if(rem!=0){
+                result+=rem*s;
+                s*=10;
+                sum+=rem;
+            }
+            n=n/10;
+        }
+        return result*sum;
+        
+    }
+}
